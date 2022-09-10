@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Header(){
@@ -6,9 +7,11 @@ function Header(){
             <header className="s-header">
                 <div className="row">
                     <div className="header-logo">
-                        <a className="site-logo" href="index.html">
-                            <Image src="src/images/logo.svg" alt="Homepage"/>
-                        </a>
+                        <Link href="index.html">
+                            <a className="site-logo">
+                                <Image src="src/images/logo.svg" alt="Homepage"/>
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </header>
