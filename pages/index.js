@@ -8,21 +8,13 @@ import "../src/js/main.js";
 import "../src/js/modernizr.js";
 import "../src/js/pace.min.js";
 import Header from "./Header";
-import Home from "./Home";
-import About from "./About";
-import AboutHow from "./AboutHow";
 
-
-function Home(){
+function App(){
     
     return (
         
-    <div>
-    
-        <div>Home</div>
-        <Link href='/sobre'>
-            <a >Acessar pagina sobre</a>
-        </Link>
+    <div>   
+        <Header className="s-header"/>
     </div>
     )
 
