@@ -1,13 +1,11 @@
-import React,{Component} from "React";
 import Header from "../components/Header";
-import "../src/css/base.css";
 
-function Index(){
+function Home(){
     
     return (        
-    <>   
-        <Header/>
-    </>
+        <div>   
+            <Header/>
+        </div>
     )
 
 }
