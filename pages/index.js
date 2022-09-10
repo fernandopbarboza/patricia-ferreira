@@ -1,5 +1,5 @@
 import React,{Component} from "React";
-import Header from "./Components/Header";
+import Header from "./components/Header.js";
 import "../src/css/base.css";
 
 function App(){
