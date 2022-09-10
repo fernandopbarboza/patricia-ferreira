@@ -1,8 +1,8 @@
 import React,{Component} from "React";
-import Header from "./components/Header.js";
+import Header from "../components/Header";
 import "../src/css/base.css";
 
-function App(){
+function Index(){
     
     return (        
     <>   
