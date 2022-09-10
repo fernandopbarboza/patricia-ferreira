@@ -5,15 +5,7 @@ function Header(){
     return(
         <div>
             <header className="s-header">
-                <div className="row">
-                    <div className="header-logo">
-                        <Link href="index.html">
-                            <a className="site-logo">
-                                <Image src="src/images/logo.svg" alt="Homepage"/>
-                            </a>
-                        </Link>
-                    </div>
-                </div>
+                <div>Header</div>
             </header>
         </div>
     )
