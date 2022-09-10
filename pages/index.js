@@ -1,8 +1,6 @@
-import React from "React";
-import { ReactDOM } from "React.DOM";
-
-import "../src/css/base.css";
+import React,{Component} from "React";
 import Header from "./Components/Header";
+import "../src/css/base.css";
 
 function App(){
     
