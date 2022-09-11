@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
+import styles from "../public/css/base.css";
 
 function Header(){
     return(
@@ -8,9 +9,9 @@ function Header(){
             <header className="s-header">
             <div className="row">
                 <div className="header-logo">
-                    <Link href="index.html">
+                    <Link href="#">
                         <a className="site-logo">
-                            <Image src="../src/images/logo.svg" alt='Homepage'/>
+                            <Image src="./" alt='Homepage'/>
                         </a>
                     </Link>
                 </div>
