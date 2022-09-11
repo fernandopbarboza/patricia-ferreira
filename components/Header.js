@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
-import styles from "../public/css/base.css";
+import '../public/css/base.css';
 
 function Header(){
     return(
