@@ -11,7 +11,7 @@ function Header(){
                 <div className="header-logo">
                     <Link href="#">
                         <a className="site-logo">
-                            <Image src="./" alt='Homepage'/>
+                            <Image src="public/images/logo.svg" alt='Homepage'/>
                         </a>
                     </Link>
                 </div>
